@@ -6,12 +6,12 @@
 
 .headerImage
 {
-    background-image:linear-
-    gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
-    url(IMG_0263.jpg);
+    background-image:
+    url(pic1.jpg);
     height:  100vh;
     background-size: cover;
     background-position: center; 
+    margin-top: auto;
 }
 
 .main-nav
@@ -29,19 +29,19 @@
 
 .main-nav li a
 {
-    color: rgb(146, 35, 168);
+    color:white;
     text-decoration: none;
     padding: 5px 20;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+    font-size: 20px;
 }
 .main-nav li.active a
 {
-    border: 1px solid rgb(147, 108, 156);
+    border: 2px solid darkorange;
 }
 .main-nav li a:hover
 {
-    border: 1px solid rgb(80, 6, 80);
+    border: 2px solid darkorange;
 }
 
 .logo img
@@ -73,9 +73,9 @@ body
 
 h1
 {
-    color: rgb(87, 54, 150);
+    color: darkmagenta;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
     margin-top: 275px;
 
@@ -89,11 +89,68 @@ h1
 
 .btn 
 {
-    border: 1px solid white;
+    border: 1px solid rgb(161, 19, 197);
     padding: 10px 30px;
-    color: white;
+    color: rgb(161, 19, 197);
     text-decoration: none;
     margin-right: 5px;
-    font-size: 13px;
+    font-size: 18px;
     text-transform: uppercase;
 }
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.btn-three
+{
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+}
+
+.btn-three:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	width: 200%;
+	height: 9%;
+	background-color: black;
+	text-align: justify;
+	bottom: 0%;
+	
+  }
+
+  .image1 {
+	position: absolute;
+    left: 22%;
+    bottom: 4px;
+    width: 60px;
+    height: 48px;
+    margin-left: -20px;
+  } 
+  
+.image2 {
+	position: absolute;
+    left: 27%;
+    bottom: -1px;
+    width: 54px;
+    height: 48px;
+    margin-left: -20px;
+  }
