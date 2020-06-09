@@ -73,70 +73,26 @@ body
 }
 
 h1
-{
-    color: darkorange;
+{ 
+    color:darkorange;
     text-transform: inherit;
     font-size: 55px;
     text-align: center;
-    margin-top: 275px;
-
+    margin-top: 200px;
 }
 
-.button
+p
 {
-    margin-top: 30px;
-    margin-left: 440px;
-}
-
-.btn 
-{
-    border: 1px solid rgb(161, 19, 197);
-    padding: 10px 30px;
-    color: rgb(161, 19, 197);
-    text-decoration: none;
-    margin-right: 5px;
+    color:darkmagenta;
     font-size: 18px;
-    text-transform: uppercase;
-}
-
-.btn-one
-{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: inherit;
+    margin-left: 175px;
     background-color: darkorange;
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+    border-radius: 5%;
 }
 
-.btn-two
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-two:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-}
-
-.btn-three
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-three:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-}
-
-.btn-four
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-four:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-}
 .footer {
 	position: fixed;
 	left: 0;
@@ -165,11 +121,3 @@ h1
     height: 48px;
     margin-left: -20px;
   }
-  .name 
-  {
-    margin-left: 10px;
-    font-size: 1.8em;
-    text-transform: uppercase;
-    color: darkviolet;
-}
-
