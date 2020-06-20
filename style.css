@@ -62,6 +62,12 @@ p::first-letter
     justify-content: center;
     flex-direction: column;
 }
+
+.contact-title
+{
+    text-align: center;
+}
+
 hr
 {
     border: 1px solid black;
@@ -183,9 +189,8 @@ hr
     width: 60px;
     height: 48px; 
     margin: 5px 20px;
-
+    
   } 
-
 
   .name 
   {
