@@ -32,7 +32,7 @@ body
     
 }
 
-.about-main
+.about-main, .contact-main
 {
     
     background-color: rgba(255, 140, 0, 0.8);
@@ -46,6 +46,36 @@ main
     margin-top: 250px;
 }
 
+p::first-letter
+{
+   font-size: 20pt;
+   font-weight: bold; 
+}
+.contact-main a 
+{
+    color: black;
+    text-decoration: none;
+}
+.contact-main div
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+hr
+{
+    border: 1px solid black;
+}
+.skills-title
+{
+    text-align: center;
+
+}
+.skills-title::first-letter
+{
+    text-transform: uppercase;
+    font-size: 25pt;
+}
 
 .image-bar img
 {
