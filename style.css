@@ -4,88 +4,113 @@
     padding: 0;
 }
 
-.headerImage
+body
 {
-    background-image:
-    url(pic1.jpg);
+    background-image: url(pic1.jpg);
     height:  100vh;
     background-size: cover;
     background-position: center; 
-    margin-top: auto;
-}
-
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-
-.main-nav li
-{
-    display: inline-block;
-
-}
-
-.main-nav li a
-{
-    color:white;
-    text-decoration: none;
-    padding: 5px 20;
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-    font-size: 20px;
-}
-.main-nav li.active a
-{
-    border: 2px solid darkorange;
-}
-.main-nav li a:hover
-{
-    border: 2px solid darkorange;
-}
-
-.logo img
-{
-    width: 200px;
-    height: auto;
-    float: left;
-    border-radius: 50%;
-}
-
-body
-{
     font-family: monospace;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.logo 
+{
+    background-image: url(IMG_0263.jpg);
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px;
+    box-shadow: 0 0 5px #2A83F9 , 0 0 10px #2A83F9 inset, 0 0 30px  #2A83F9 inset;
+    filter: grayscale(0.4);
+    position: absolute;
+    border: 2px solid darkorange;
+    
+}
+
+.about-main
+{
+    
+    background-color: rgba(255, 140, 0, 0.8);
+    padding: 25px;
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+    font-size: 15pt;
+    text-indent: 10px;
+}
+main
+{
+    margin-top: 250px;
+}
+
+
+.image-bar img
+{
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+ 
+}
+.image-bar div
+{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid darkorange;
+    padding: 3px;
+    -webkit-box-reflect: below 2px -webkit-gradient(linear, right top, right
+        bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+}
+
+.image-bar div:hover, .image-bar img:hover
+{
+    height: 150px;
+    width: auto;
+    transition: all 1s ease;
+    
+}
+.image-bar div:hover
+{
+    margin-top: -25px;
+}
+
+ .image-bar
+ {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    
+ }
+.about-main p::first-letter
+{
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 .row
 {
     max-width: 1200px;
-    margin: auto;
-}
-
-.options
-{
-    position: absolute;
-    width: 1200px;
-    margin-left: 0;
-    margin-top: 0;
-
-}
-
-h1
-{
-    color: darkorange;
-    text-transform: inherit;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 275px;
-
+   
 }
 
 .button
 {
-    margin-top: 30px;
-    margin-left: 440px;
+    list-style-type: none;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    top: 30px;
+    position: absolute;
+
 }
 
 .btn 
@@ -94,77 +119,44 @@ h1
     padding: 10px 30px;
     color: rgb(161, 19, 197);
     text-decoration: none;
-    margin-right: 5px;
+    margin: 10px;
     font-size: 18px;
     text-transform: uppercase;
+    background-color: rgba(255, 140, 0, 0.7);
+    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
+    text-shadow: 0 0 2px darkorange, 0 0 2px darkorange, 0 0 2px darkorange, 0 0 2px darkorange, 0 0 2px darkorange,0 0 2px darkorange;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
-.btn-one
+
+.btn:hover
 {
     background-color: darkorange;
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-two
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-two:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-}
-
-.btn-three
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-three:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-}
-
-.btn-four
-{
-    font-family: "Roboto", 'Lucida Sans Regular', sans-serif;
-}
-
-.btn-four:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s linear;
 }
 .footer {
 	position: fixed;
-	left: 0;
-	width: 200%;
-	height: 9%;
+	width: 100%;
+	height: 60px;
 	background-color: black;
-	text-align: justify;
-	bottom: 0%;
+    bottom: 0;
+    display:flex;
+    flex-direction: row;
+    line-height: 60px;
 	
   }
 
-  .image1 {
-	position: absolute;
-    left: 22%;
-    bottom: 4px;
+
+  .image1 
+  {
     width: 60px;
-    height: 48px;
-    margin-left: -20px;
+    height: 48px; 
+    margin: 5px 20px;
+
   } 
-  
-.image2 {
-	position: absolute;
-    left: 27%;
-    bottom: -1px;
-    width: 54px;
-    height: 48px;
-    margin-left: -20px;
-  }
+
+
   .name 
   {
     margin-left: 10px;
@@ -173,3 +165,20 @@ h1
     color: darkviolet;
 }
 
+@media only screen and (max-width: 800px)
+{.button
+{ 
+    flex-direction: column;
+    
+}
+.button li 
+{
+    display:flex;
+    justify-content: center;
+}
+
+main
+{
+    margin-top: 400px;
+}
+}
