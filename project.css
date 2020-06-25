@@ -1,57 +1,48 @@
-.project-img img
-{
+.project-img img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-
- 
 }
-.project-img div
-{
-    height: 100px;
-    width: 100px;
-    margin: 0 20px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid darkorange;
-    padding: 5px;
-    -webkit-box-reflect: below 2px -webkit-gradient(linear, right top, right
+.project-img div {
+  height: 100px;
+  width: 100px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid darkorange;
+  padding: 5px;
+  -webkit-box-reflect: below 2px -webkit-gradient(linear, right top, right
         bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
 }
 
-.project-img div:hover, .project-img img:hover
-{
-    height: 150px;
-    width: auto;
-    transition: all 2s ease;
-    
+.project-img div:hover,
+.project-img img:hover {
+  height: 150px;
+  width: auto;
+  transition: all 2s ease;
 }
-.project-img div:hover
-{
-    margin-top: -25px;
+.project-img div:hover {
+  margin-top: -25px;
 }
 
- .project-img
- {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 25px;
-    
- }
+.project-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
 
- .project-img
- {
-     margin-top: 25px;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-weight: bold;
-     text-shadow: 0 0 10px darkorange, 0 0 10px darkorange, 0 0 10px darkorange;
- }
+.project-img {
+  margin-top: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 10px darkorange, 0 0 10px darkorange, 0 0 10px darkorange;
+}
 
- span
- {
-    position: absolute; 
- }
+span {
+  position: absolute;
+}
