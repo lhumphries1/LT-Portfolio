@@ -122,9 +122,9 @@ hr {
 }
 
 .btn {
-  border: 1px solid rgb(161, 19, 197);
+  border: 1px solid (black);
   padding: 10px 30px;
-  color: rgb(161, 19, 197);
+  color: (black);
   text-decoration: none;
   margin: 10px;
   font-size: 18px;
@@ -162,7 +162,7 @@ hr {
   margin-left: 10px;
   font-size: 1.8em;
   text-transform: uppercase;
-  color: darkviolet;
+  color: rgb(50, 104, 145);
 }
 
 @media only screen and (max-width: 800px) {
