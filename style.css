@@ -221,6 +221,10 @@ p::first-letter {
   font-size: 20pt;
   font-weight: bold;
 }
+
+p2 {
+  background-color: rgb(190, 216, 240);
+}
 .contact-main a {
   color: black;
   text-decoration: none;
