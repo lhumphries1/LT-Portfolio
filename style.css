@@ -252,9 +252,7 @@ p::first-letter {
 }
 
  /* @media screen and (min-width:750px) */
-/* @media screen and (max-width:749px) {
-  
-}  */
+ /* @media screen and (max-width:749px) */
 
 @media only screen and (max-width: 1400px) {
   .stretch {
