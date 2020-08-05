@@ -256,11 +256,11 @@ p::first-letter {
   
 }  */
 
-/* @media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
   .stretch {
     min-height: 800px;
   }
-} */
+}
 
 
 .contact-main a {
