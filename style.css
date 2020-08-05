@@ -201,7 +201,7 @@ body {
   height: 150px;
   border-radius: 50%;
   margin-top: 70px;
-  margin-left: 550px;
+  margin-left: 525px;
   display: flex;
   box-shadow: 0 0 5px  rgb(8, 65, 109), 0 0 10px  rgb(8, 65, 109) inset, 0 0 30px rgb(8, 65, 109) inset;
   filter: grayscale(0.4);
